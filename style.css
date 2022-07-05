@@ -1,0 +1,24 @@
+.borklat {
+  border-color: #b9a07e;
+}
+
+.bg-kertas {
+  background-color: #f0e7d7;
+  border-right: 10px solid #b9a07e;
+  border-left: 10px solid #b9a07e;
+}
+.txt-shadow {
+  text-shadow: 3px 3px 10px black;
+}
+.bg-achievment {
+  background-color: #f0e7d7;
+  border: 10px solid #b9a07e;
+}
+.fw-nilai {
+  font-size: 500%;
+  font-weight: bold;
+}
+.txt-tittle {
+  font-size: 4em;
+  color: white;
+}
