@@ -22,3 +22,14 @@
   font-size: 4em;
   color: white;
 }
+.dumbler {
+  width: 400px;
+}
+@media (max-width: 760px) {
+  .txt-tittle {
+    font-size: 3em;
+  }
+  .dumbler {
+    width: 300px;
+  }
+}
