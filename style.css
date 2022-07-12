@@ -1,3 +1,9 @@
+body {
+  background: url(asset/background.png);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+}
+
 .borklat {
   border-color: #b9a07e;
 }
@@ -26,7 +32,11 @@
   color: white;
 }
 .txt-tittle2 {
-  font-size: 4em;
+  font-size: 64px;
+  color: black;
+}
+.txt-tittle3 {
+  font-size: 96px;
   color: black;
 }
 .dumbler {
@@ -35,12 +45,16 @@
 .w-90 {
   width: 90%;
 }
-@media (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .txt-tittle {
     font-size: 3em;
   }
   .dumbler {
     width: 300px;
+  }
+  .youtube {
+    width: 200px;
+    height: 128px;
   }
 }
 
@@ -57,6 +71,18 @@
 }
 
 .kotak {
-  width: 48%;
-  height: 27%;
+  width: 172px;
+  height: 194px;
+  background-color: aqua;
+}
+.hitam {
+  color: #464543;
+}
+.youtube {
+  width: 509px;
+  height: 300px;
+}
+
+.marginbottom {
+  margin-bottom: 100px;
 }
