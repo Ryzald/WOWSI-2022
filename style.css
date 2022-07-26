@@ -45,9 +45,16 @@ body {
 .w-90 {
   width: 90%;
 }
+@media screen {
+}
 @media screen and (max-width: 800px) {
   .txt-tittle {
     font-size: 3em;
+  }
+  .txt-tittle3 {
+    font-size: 5em;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .dumbler {
     width: 300px;
@@ -79,8 +86,8 @@ body {
   color: #464543;
 }
 .youtube {
-  width: 509px;
-  height: 300px;
+  width: 60%;
+  aspect-ratio: 16/9;
 }
 
 .marginbottom {
