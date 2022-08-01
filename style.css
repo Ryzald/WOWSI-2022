@@ -82,6 +82,10 @@ body {
     width: 200px;
     height: 128px;
   }
+
+  .chapterLebar {
+    width: 100%;
+  }
 }
 
 .p-head {
@@ -113,4 +117,8 @@ body {
 
 .marginbottom {
   margin-bottom: 100px;
+}
+
+.chapterLebar {
+  width: 69%;
 }
