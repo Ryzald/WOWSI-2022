@@ -1,164 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WOWSI 2022</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-  </head>
 
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar navbar-dark navbar-expand-lg shadow fixed-top mb-5" style="background-color: #7a7ae9">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="asset/logo.png" alt="" width="30" height="30" />
-        </a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WOWSI 2022</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
 
-        <a class="navbar-brand fw-bolder" href="index.html">WOWSI 2022</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="index.html#timeline">Timeline</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="index.html#kelompok">Kelompok</a>
-            </li>
+<!-- Navbar -->
+<header>
+  <nav class="navbar navbar-dark navbar-expand-lg shadow fixed-top mb-5" style="background-color: #7a7ae9">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="asset/logo.png" alt="" width="30" height="30" />
+      </a>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle rounded-pill fw-bolder text-center ps-3 pe-3 pt-0 pb-1 mt-2 ms-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ed8d35"> Akun </a>
-              <ul class="dropdown-menu text-center border-warning" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item fw-bold" href="editAkun.html">Edit Akun</a></li>
-                <li><a class="dropdown-item fw-bold" href="gantiPsw.html">Ganti Password</a></li>
-                <li><a class="dropdown-item border-bottom border-warning fw-bold" href="penugasan.html">Penugasan</a></li>
-                <li><a class="dropdown-item text-danger fw-bold" href="#">Sign Out</a></li>
-              </ul>
-            </li>
-          </ul>
+      <a class="navbar-brand fw-bolder" href="index.html">WOWSI 2022</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link active fw-bolder" aria-current="page" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bolder" aria-current="page" href="index.html#timeline">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bolder" aria-current="page" href="index.html#kelompok">Kelompok</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle rounded-pill fw-bolder text-center ps-3 pe-3 pt-0 pb-1 mt-2 ms-2"
+              href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="background-color: #ed8d35"> Akun </a>
+            <ul class="dropdown-menu text-center border-warning" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item fw-bold" href="editAkun.html">Edit Akun</a></li>
+              <li><a class="dropdown-item fw-bold" href="gantiPsw.html">Ganti Password</a></li>
+              <li><a class="dropdown-item border-bottom border-warning fw-bold" href="penugasan.html">Penugasan</a></li>
+              <li><a class="dropdown-item text-danger fw-bold" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- End Of Navbar -->
+
+<body>
+  <!-- WElcoming -->
+  <div class="text-center scr-height bg-blue">
+    <div class="logo text-center p-head"><img src="asset/logo.png" width="120px" height="120px" alt="" /></div>
+    <img class="mt-4" src="asset/textWelcom.png" width="85%" alt="" />
+    <div class="namaOrang text-capitalize fs-2 fw-bold mt-3">nama orang</div>
+  </div>
+  <!-- End of Welcoming -->
+
+  <!-- GUlungan -->
+  <div class="gulungan text-center mt-5">
+    <p class="mb-0"><img src="asset/gulungan.png" width="92%" alt="" /></p>
+  </div>
+  <!-- end gulungan -->
+  <div class="tengah w-75 text-center ms-auto me-auto bg-kertas">
+    <!-- about -->
+    <div id="about">
+      <div class="ms-auto me-auto text-center" id="about">
+        <img src="asset/jamur.png" width="40%" alt="" />
+      </div>
+      <!-- yputube -->
+      <div class="me-auto ms-auto mt-4 mb-4">
+        <iframe class="youtube" frameborder="0" scrolling="no" marginheight="" marginwidth="0" type="text/html"
+          src="https://www.youtube.com/embed/DBXH9jJRaDk?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
+          <div>
+            <small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small>
+          </div>
+          <div>
+            <small><a href="https://betting-utan-licens.nu/">betting-utan-licens.nu</a></small>
+          </div>
+        </iframe>
+      </div>
+      <!-- end of youtube -->
+
+      <p class="txt-tittle2 text-uppercase fw-bold hitam">wow si</p>
+      <p class="ms-5 me-5">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint inventore alias doloribus veniam fuga, ea impedit
+        quae atque sequi quisquam id facilis expedita molestiae, modi nobis suscipit voluptatibus sed? Perferendis
+        dolores autem voluptatem deserunt, nostrum odio tempore alias iusto officia rerum consequatur libero quaerat
+        impedit. Autem, quos. Maiores necessitatibus nulla architecto obcaecati quae, aliquam atque, dicta quasi totam
+        deleniti delectus excepturi ipsam eaque, ipsa
+        voluptates et illum! Porro, dolorum earum.
+      </p>
+
+      <!-- icon -->
+      <div class="icon w-50 ms-auto me-auto">
+        <a class="p-2" href="#"><i class="fa-brands fa-youtube fa-2x" style="color: #cfae74"></i></a>
+        <a class="p-2" href="#"><i class="fa-brands fa-instagram fa-2x" style="color: #cfae74"></i></a>
+        <a class="p-2" href="#"><i class="fa-brands fa-line fa-2x" style="color: #cfae74"></i></a>
+        <a class="p-2" href="#"><i class="fa-brands fa-twitter fa-2x" style="color: #cfae74"></i></a>
+      </div>
+      <!-- end of icon -->
+      <img src="asset/page break.png" width="100%" alt="" />
+    </div>
+    <!-- end of about -->
+
+    <!-- Timeline -->
+    <div id="timeline">
+      <div class="timeline txt-tittle3 text-uppercase fw-bold txt ms-auto me-auto hitam mb-5" id="timeline">t i m e l i
+        n e</div>
+      <div class="row ms-auto me-auto bg-black">
+        <div class="col">
+          <div class="kotak me-auto ms-auto mt-5"></div>
+          pertama
+        </div>
+        <div class="col">
+          <div class="kotak me-auto ms-auto mt-5"></div>
+          kedua
+        </div>
+        <div class="col">
+          <div class="kotak me-auto ms-auto mt-5"></div>
+          ketiga
         </div>
       </div>
-    </nav>
-  </header>
-  <!-- End Of Navbar -->
-
-  <body>
-    <!-- WElcoming -->
-    <div class="text-center scr-height bg-blue">
-      <div class="logo text-center p-head"><img src="asset/logo.png" width="120px" height="120px" alt="" /></div>
-      <img class="mt-4" src="asset/textWelcom.png" width="85%" alt="" />
-      <div class="namaOrang text-capitalize fs-2 fw-bold">nama orang</div>
-    </div>
-    <!-- End of Welcoming -->
-
-    <!-- GUlungan -->
-    <div class="gulungan text-center mt-5">
-      <p class="mb-0"><img src="asset/gulungan.png" width="92%" alt="" /></p>
-    </div>
-    <!-- end gulungan -->
-    <div class="tengah w-75 text-center ms-auto me-auto bg-kertas">
-      <!-- about -->
-      <div id="about">
-        <div class="ms-auto me-auto text-center" id="about">
-          <img src="asset/jamur.png" width="40%" alt="" />
+      <div class="row ms-auto me-auto">
+        <div class="col bg">
+          <div class="kotak me-auto ms-auto mt-5">keempat</div>
         </div>
-        <!-- yputube -->
-        <div class="me-auto ms-auto mt-4 mb-4">
-          <iframe class="youtube" frameborder="0" scrolling="no" marginheight="" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/DBXH9jJRaDk?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"
-            ><div>
-              <small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small>
+        <div class="col text-center">
+          <div class="kotak me-auto ms-auto mt-5">kelima</div>
+        </div>
+      </div>
+      <img src="asset/page break.png" width="100%" alt="" />
+    </div>
+    <!-- end of timeline -->
+
+    <!-- kelompok -->
+    <div class="kelompok" id="kelompok">
+      <div class="row pb-lg-5 p-5">
+        <div class="col-sm-3 mt-3"><img src="asset/guardian.png" width="100%" alt="" /></div>
+        <div class="col-sm-6 mt-auto mb-auto">
+          <label for="cari" class="fw-bold fs-2 mb-3">You will need a party to pass this journey. Find your party
+            here!</label>
+          <div class="input-group search">
+            <input id="cari" type="text" class="form-control" placeholder="Masukkan NIM kamu" name="nimkelompok" />
+            <div class="input-group-append" id="carikelompok">
+              <button class="rounded-end btn" style="border-radius: 0px; background-color: #7a7ae9; color: white"
+                type="submit" name="submit2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
-            <div>
-              <small><a href="https://betting-utan-licens.nu/">betting-utan-licens.nu</a></small>
-            </div></iframe
-          >
+          </div>
         </div>
-        <!-- end of youtube -->
-
-        <p class="txt-tittle2 text-uppercase fw-bold hitam">wow si</p>
-        <p class="ms-5 me-5">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint inventore alias doloribus veniam fuga, ea impedit quae atque sequi quisquam id facilis expedita molestiae, modi nobis suscipit voluptatibus sed? Perferendis dolores autem voluptatem deserunt, nostrum odio tempore alias iusto officia rerum consequatur libero quaerat impedit. Autem, quos. Maiores necessitatibus nulla architecto obcaecati quae, aliquam atque, dicta quasi totam deleniti delectus excepturi ipsam eaque, ipsa
-          voluptates et illum! Porro, dolorum earum.
-        </p>
-
-        <!-- icon -->
-        <div class="icon w-50 ms-auto me-auto">
-          <a class="p-2" href="#"><i class="fa-brands fa-youtube fa-2x" style="color: #cfae74"></i></a>
-          <a class="p-2" href="#"><i class="fa-brands fa-instagram fa-2x" style="color: #cfae74"></i></a>
-          <a class="p-2" href="#"><i class="fa-brands fa-line fa-2x" style="color: #cfae74"></i></a>
-          <a class="p-2" href="#"><i class="fa-brands fa-twitter fa-2x" style="color: #cfae74"></i></a>
-        </div>
-        <!-- end of icon -->
-        <img src="asset/page break.png" width="100%" alt="" />
+        <div class="col-sm-3 mt-3"><img src="asset/guardiankanan.png" alt="" width="100%" /></div>
       </div>
-      <!-- end of about -->
-
-      <!-- Timeline -->
-      <div id="timeline">
-        <div class="timeline txt-tittle3 text-uppercase fw-bold txt ms-auto me-auto hitam mb-5" id="timeline">t i m e l i n e</div>
-        <div class="row ms-auto me-auto">
-          <div class="col">
-            <div class="kotak me-auto ms-auto mt-5"></div>
-            pertama
-          </div>
-          <div class="col">
-            <div class="kotak me-auto ms-auto mt-5"></div>
-            kedua
-          </div>
-          <div class="col">
-            <div class="kotak me-auto ms-auto mt-5"></div>
-            ketiga
-          </div>
-        </div>
-        <div class="row ms-auto me-auto" style="width: 69%">
-          <div class="col">
-            <div class="kotak me-auto ms-auto mt-5">keempat</div>
-          </div>
-          <div class="col text-center">
-            <div class="kotak me-auto ms-auto mt-5">kelima</div>
-          </div>
-        </div>
-        <img src="asset/page break.png" width="100%" alt="" />
-      </div>
-      <!-- end of timeline -->
-
-      <!-- kelompok -->
-      <div class="kelompok" id="kelompok">
-        <div class="row pb-lg-5 p-5">
-          <div class="col-sm-3 mt-3"><img src="asset/guardian.png" width="100%" alt="" /></div>
-          <div class="col-sm-6 mt-auto mb-auto">
-            <label for="cari" class="fw-bold fs-2 mb-3">You will need a party to pass this journey. Find your party here!</label>
-            <div class="input-group search">
-              <input id="cari" type="text" class="form-control" placeholder="Masukkan NIM kamu" name="nimkelompok" />
-              <div class="input-group-append" id="carikelompok">
-                <button class="rounded-end btn" style="border-radius: 0px; background-color: #7a7ae9; color: white" type="submit" name="submit2">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 mt-3"><img src="asset/guardiankanan.png" alt="" width="100%" /></div>
-        </div>
-      </div>
-      <!-- end of kelompok -->
     </div>
-    <!-- GUlungan -->
-    <div class="gulungan text-center">
-      <p class="mb-0"><img src="asset/gulungan.png" width="92%" alt="" /></p>
-    </div>
-    <!-- end gulungan -->
+    <!-- end of kelompok -->
+  </div>
+  <!-- GUlungan -->
+  <div class="gulungan text-center">
+    <p class="mb-0"><img src="asset/gulungan.png" width="92%" alt="" /></p>
+  </div>
+  <!-- end gulungan -->
 
-    <br /><br /><br /><br /><br /><br /><br />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <footer class="mb-0 pos" style="background-color: #7a7ae9">
-      <p class="text-center text-light mb-0">© WOW SI 2022 X P2S EMSI 2022/2023</p>
-    </footer>
-  </body>
+  <br /><br /><br /><br /><br /><br /><br />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <footer class="mb-0 pos" style="background-color: #7a7ae9">
+    <p class="text-center text-light mb-0">© WOW SI 2022 X P2S EMSI 2022/2023</p>
+  </footer>
+</body>
+
 </html>
