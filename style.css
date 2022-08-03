@@ -83,11 +83,9 @@ body {
     height: 128px;
   }
 
-  .chapterLebar {
-    width: 100%;
-    margin-left: -20px;
-  }
+
 }
+
 
 .p-head {
   padding-top: 150px;
@@ -96,10 +94,10 @@ body {
 
 .bg-blue {
   background-image: url(asset/BgHomeAtas.svg);
+  background-size: cover;
+  min-height: 115vh;
   z-index: -1;
-  /* margin-left: -20px; */
-  min-height: 120vh;
-  background-size: 100% 100%;
+
 
 }
 
@@ -128,9 +126,7 @@ body {
   margin-bottom: 100px;
 }
 
-.chapterLebar {
-  width: 69%;
-}
+
 
 .tombol {
   text-decoration: none;
