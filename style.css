@@ -83,6 +83,25 @@ body {
     height: 128px;
   }
 
+  .popup .popupContent h1 {
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .popup .popupContent h4 {
+    font-size: smaller;
+  }
+
+  .popup .popupContent a {
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .popup img {
+    width: 80px;
+
+  }
+
 
 }
 
@@ -181,6 +200,10 @@ body {
   transition: all .5 .1;
 }
 
+.popup .popupContent a {
+  font-weight: bold;
+}
+
 .textPopup {
   margin-bottom: 40px;
 
@@ -189,6 +212,7 @@ body {
 
 .popup img {
   width: 15%;
+
 }
 
 #popup:target {
