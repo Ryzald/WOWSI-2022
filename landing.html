@@ -114,25 +114,25 @@
       <div class="row ms-auto me-auto " style="width: 100%;">
         <div class="col">
           <div class=" me-auto ms-auto mt-5"> <img src="asset/c1.svg" class="kotak" alt=""></div>
-          Chapter 1
+          <div class="textTL">Chapter 1</div>
         </div>
         <div class="col">
           <div class="kotak me-auto ms-auto mt-5"> <img src="asset/c2.svg" class="kotak" alt=""></div>
-          Chapter 2
+          <div class="textTL">Chapter 2</div>
         </div>
         <div class="col">
           <div class="kotak me-auto ms-auto mt-5"> <img src="asset/c3.svg" class="kotak" alt=""></div>
-          Chapter 3
+          <div class="textTL">Chapter 3</div>
         </div>
       </div>
       <div class="row ms-auto me-auto " style="width: 85%;">
         <div class=" col bg">
           <div class="kotak me-auto ms-auto mt-5"><img src="asset/c4.svg" class="kotak" alt=""></div>
-          Chapter 4
+          <div class="textTL">Chapter 4</div>
         </div>
         <div class="col text-center">
           <div class="kotak me-auto ms-auto mt-5"><img src="asset/chest.svg" class="kotak" alt=""></div>
-          Chapter 5
+          <div class="textTL">Chapter 5</div>
         </div>
       </div>
       <img src="asset/page break.png" width="100%" alt="" />
@@ -146,7 +146,7 @@
         <div class="col-sm-6 mt-auto mb-auto">
           <label for="cari" class="fw-bold fs-2 mb-3">You will need a party to pass this journey. Find your party
             here!</label>
-          <div class="input-group search">
+          <form action="#popup" class="input-group search">
             <input id="cari" type="text" class="form-control" placeholder="Masukkan NIM kamu" name="nimkelompok" />
             <div class="input-group-append" id="carikelompok">
               <button class="rounded-end btn" style="border-radius: 0px; background-color: #7a7ae9; color: white"
@@ -154,7 +154,7 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
-          </div>
+          </form>
         </div>
         <div class="col-sm-3 mt-3"><img src="asset/guardiankanan.png" alt="" width="100%" /></div>
       </div>
@@ -174,6 +174,22 @@
   <footer class="mb-0 pos" style="background-color: #7a7ae9">
     <p class="text-center text-light mb-0">© WOW SI 2022 X P2S EMSI 2022/2023</p>
   </footer>
+
+
+  <div class="popup" id="popup">
+    <div class="popupContent  position-absolute top-50 start-50 translate-middle rounded-4 pt-5 border-success">
+      <img src="asset/logo.png" alt="">
+      <div class="textPopup ">
+        <h1>Halo Keluarga Baru</h1>
+        <h4>Kamu berada di kelompok <b>100</b> nih!!</h4>
+        <h4>Ayo segera bergabung ke kelompokmu</h4>
+        <a href="#" class="btn btn-warning text-uppercase">bergabung</a>
+      </div>
+      <a href="#" class="popupClose">&times;</a>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
