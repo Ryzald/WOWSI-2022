@@ -64,11 +64,11 @@
             </div>
         </div>
 
-        <div class="col text-center border-danger col-md-4 mt-2 mb-3">
+        <div class="col text-center border-danger col-md-4 mt-2 mb-3" id="witchKel">
             <p><img class="dumblerKelompok" src="asset/dumbledorr.png" alt="" /></p>
         </div>
 
-        <div class="col text-center col-md-8">
+        <div class="col text-center col-md-8 mx-auto">
             <div class="gulungan">
                 <p class="mb-0"><img src="asset/gulungan.png" width="100%" alt="" /></p>
             </div>
@@ -88,9 +88,7 @@
             </div>
         </div>
     </div>
-    <!-- kolom kanan -->
 
-    <!-- END OF QUEST -->
 
 
 
@@ -102,6 +100,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+
+    </script>
+    <script type="application/javascript">
+        console.log(screen.width);
+        let witchKel = document.getElementById("witchKel")
+        if (screen.width <= 700) {
+            witchKel.style.display = "none"
+        }
     </script>
 </body>
 
