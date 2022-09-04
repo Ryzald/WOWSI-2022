@@ -2,6 +2,7 @@ body {
   background: url(asset/background.png);
   background-size: 100% auto;
   background-repeat: repeat-y;
+
 }
 
 .borklat {
@@ -55,17 +56,28 @@ body {
   width: 90%;
 }
 
+.titleLogo {
+  width: 130px;
+  height: 130px;
+}
+
 @media screen {}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+
+  .titleLogo {
+    width: 65px;
+    height: 65px;
+  }
+
   .txt-tittle {
     font-size: 2.3em;
 
   }
 
+
   .s {
-    font-size: 25px;
-    margin-top: 45px;
+    font-size: smaller;
   }
 
   .txt-tittle3 {
